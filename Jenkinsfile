@@ -8,8 +8,7 @@ pipeline
       steps
       {
         echo "Building the code......."
-        bat  "cmd.exe"
-        bat  "mvn clean"
+        sh "mvn clean"
       }  
     } 
     
